@@ -1,0 +1,196 @@
+/* Estilização geral*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, ul{
+    color: white;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-do-teste-padrao-cor-escura_1035-2691.jpg?semt=ais_hybrid&w=740);
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 7%;
+}
+
+.flex{
+    display: flex;
+}
+
+.contato button:hover, .inicio button:hover{
+    background-color: green;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgba(172, 255, 47, 0.5);
+    transform: scale(1.1);
+    transition: .2s;
+    box-shadow: 0px 0px 10px rgb(0, 255, 0);
+}
+
+.contato button, .inicio button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* Header */
+
+header{
+    padding: 40px 0;
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+color: rgb(123, 123, 123);
+text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+    transform: scale(1.1);
+    display: inline-block;
+    transition: 0.2s;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: larger;
+}
+
+#jandy-logo{
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+/* Top */
+
+.topo{
+    padding: 40px 4%;
+}
+
+.topo h1, p{
+    color: white;
+}
+
+.topo h1{
+    line-height: 40px;
+    font-size: 34px;
+    margin: 20px 0;
+}
+
+.topo p{
+    color: white;
+    line-height: 20px;
+    margin: 20px 0 60px 0;
+}
+
+
+.topo .flex{
+align-items: center;
+justify-content: center;
+gap: 90px;
+}
+
+span {
+    color: greenyellow;
+}
+
+@keyframes flutuar {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+#jandy-main{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 30px;
+
+}
+#gabriel-main{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 30px;
+}
+#luiz-main{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 30px;
+}
+
+/* Especialidades */
+
+#guitar-icon, #mixagem-icon{
+    margin-top: 10px;
+}
+
+#hab-gabriel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hab-luiz{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icones-box{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones-box img{
+    border-radius: 30px;
+}
+
+.interface .flex{
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2, h3{
+    line-height: 100px;
+    color: white;
+}
+
+/* IMG */
+
+#gabriel-main{
+    border-radius: 30px;
+}
+
+#luiz-main{
+    border-radius: 30px;
+}
+
+p span{
+    color: rgb(128, 128, 255);
+}
